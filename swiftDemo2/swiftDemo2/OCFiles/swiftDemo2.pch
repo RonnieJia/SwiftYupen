@@ -1,0 +1,12 @@
+//
+//  swiftDemo2.pch
+//  swiftDemo2
+//
+//  Created by jiapinghui on 15/11/9.
+//  Copyright © 2015年 RJ. All rights reserved.
+//
+
+#ifndef swiftDemo2_pch
+#define swiftDemo2_pch
+#import "swiftDemo2-Bridging-Header.h"
+#endif /* swiftDemo2_pch */
