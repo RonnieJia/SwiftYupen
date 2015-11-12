@@ -7,3 +7,4 @@
 #import "UIImageView+WebCache.h"
 #import "RJDES.h"
 #import "MJRefresh.h"
+#import "RJProgressView.h"

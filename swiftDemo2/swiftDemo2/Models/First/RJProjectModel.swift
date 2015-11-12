@@ -35,6 +35,14 @@ class RJProjectModel: NSObject {
     var imgurl: String = ""
     var sum: String = ""
     
+    class func createProduct(dict: NSDictionary) -> RJProjectModel {
+        let product = RJProjectModel()
+        for key: String in dict.allKeys as! Array<String> {
+            product.setValue(String(dict.objectForKey(key)!), forKey: key)
+        }
+        return product
+    }
+    
     override func setValue(value: AnyObject?, forUndefinedKey key: String) {
         
     }

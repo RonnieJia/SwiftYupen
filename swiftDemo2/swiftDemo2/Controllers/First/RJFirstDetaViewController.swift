@@ -78,7 +78,6 @@ class RJFirstDetaViewController: RJBaseViewController, UITableViewDelegate, UITa
             cell = UITableViewCell(style: .Default, reuseIdentifier: identifier)
         }
         let model = self.daraArray![indexPath.row]
-        cell!.textLabel!.text = model.PAddress!
         
         return cell!;
     }
