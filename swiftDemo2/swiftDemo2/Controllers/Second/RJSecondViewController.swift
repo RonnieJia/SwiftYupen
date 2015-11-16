@@ -12,6 +12,7 @@ class RJSecondViewController: RJBaseViewController, UITableViewDelegate, UITable
 
     var tableView: UITableView?
     var dataArray = NSMutableArray()
+    var isRefreshing: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,7 @@ class RJSecondViewController: RJBaseViewController, UITableViewDelegate, UITable
     // 余盆产品请求
     func HOProductSucceed(task: NSURLSessionDataTask!, responseObject: AnyObject!) -> Void {
         self.HUD?.hide(true)
+        self.isRefreshing = false
         if String(responseObject.objectForKey("ReturnStatus")!) == "0" {
             let messageArr = responseObject.objectForKey("ReturnMessage")! as! Array<NSDictionary>
             for dict: NSDictionary in messageArr {
@@ -45,6 +47,8 @@ class RJSecondViewController: RJBaseViewController, UITableViewDelegate, UITable
     }
     
     func faild(task: NSURLSessionDataTask?, error: NSError) -> Void {
+        self.HUD?.hide(true)
+        self.isRefreshing = false
         self.HUDTextShow("请求发生错误", hiden: true)
     }
     func configTableView() {
@@ -58,6 +62,7 @@ class RJSecondViewController: RJBaseViewController, UITableViewDelegate, UITable
     }
     
     func tableViewHeaderRefresh() {
+        self.isRefreshing = true
         self.dataArray.removeAllObjects()
         self.getData()
     }

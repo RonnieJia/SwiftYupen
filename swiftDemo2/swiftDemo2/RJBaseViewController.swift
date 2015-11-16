@@ -16,6 +16,7 @@ class RJBaseViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.navigationItem.backBarButtonItem?.tintColor = UIColor.darkGrayFontColor()
     }
 
     override func didReceiveMemoryWarning() {
@@ -80,6 +81,26 @@ class RJBaseViewController: UIViewController {
             self.HUD?.hide(true, afterDelay: 0.8)
         }
     }
+    
+    
+    func createLeftNavigationBarItem(image: String, size: CGSize, selector:Selector, tag:Int) {
+        let leftButton = UIButton(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+        leftButton.setBackgroundImage(UIImage(named: image), forState: .Normal)
+        leftButton.addTarget(self, action: selector, forControlEvents: .TouchUpInside)
+        leftButton.tag = tag
+        let leftBar = UIBarButtonItem(customView: leftButton)
+        self.navigationItem.leftBarButtonItem = leftBar
+    }
+    
+    func createRightNavigationBarItem(image: String, size: CGSize, selector:Selector, tag:Int) {
+        let leftButton = UIButton(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+        leftButton.setBackgroundImage(UIImage(named: image), forState: .Normal)
+        leftButton.addTarget(self, action: selector, forControlEvents: .TouchUpInside)
+        leftButton.tag = tag
+        let leftBar = UIBarButtonItem(customView: leftButton)
+        self.navigationItem.rightBarButtonItem = leftBar
+    }
+    
     
     
     /*

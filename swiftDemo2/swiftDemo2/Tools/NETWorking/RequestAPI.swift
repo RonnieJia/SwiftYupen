@@ -14,6 +14,26 @@ typealias Failure = (NSURLSessionDataTask!, NSError) -> Void
 
 class RequestAPI: NSObject {
     
+    class func reachability() {
+        AFNetworkReachabilityManager.sharedManager().startMonitoring()
+        AFNetworkReachabilityManager.sharedManager().setReachabilityStatusChangeBlock { (status: AFNetworkReachabilityStatus) -> Void in
+            switch (status) {
+            case .Unknown:// 未知
+                
+                break;
+                
+            case .NotReachable:// 无网络连接
+                
+                break;
+            case .ReachableViaWiFi:// WIFI
+                break;
+                
+            case .ReachableViaWWAN:// 手机自带网络
+                break;
+            }
+        }
+    }
+    
     class func CMGET(url:String!, parameters:AnyObject?, succeed: Succeed, failure:Failure) {
         let mysucceed: Succeed = succeed
         let myfailure: Failure = failure

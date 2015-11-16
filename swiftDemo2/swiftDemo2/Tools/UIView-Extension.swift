@@ -26,6 +26,10 @@ extension UIView {
         return self.frame.origin.y
     }
     
+    func right() -> CGFloat {
+        return self.positionX()+self.width()
+    }
+    
     func bottom() -> CGFloat {
         return self.positionY() + self.height()
     }

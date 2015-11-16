@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A110D69F1BF5FC6F00055D82 /* RJSecondDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110D69E1BF5FC6F00055D82 /* RJSecondDetailController.swift */; };
+		A110D6A11BF6072600055D82 /* RJThridChooseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A110D6A01BF6072600055D82 /* RJThridChooseButton.swift */; };
 		A15A1BD01BF212AF003E21F8 /* RJZCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A1BCF1BF212AF003E21F8 /* RJZCDetailViewController.swift */; };
 		A17E74E21BEF5686008514B9 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E74C21BEF5686008514B9 /* MKAnnotationView+WebCache.m */; };
 		A17E74E31BEF5686008514B9 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E74C41BEF5686008514B9 /* NSData+ImageContentType.m */; };
@@ -26,6 +28,10 @@
 		A17E74F11BEF5686008514B9 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A17E74E11BEF5686008514B9 /* UIView+WebCacheOperation.m */; };
 		A17E74F31BEF928F008514B9 /* RJFirestCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E74F21BEF928F008514B9 /* RJFirestCollectionHeaderView.swift */; };
 		A17E74F51BEF984F008514B9 /* RJFirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E74F41BEF984F008514B9 /* RJFirstCollectionViewCell.swift */; };
+		A18F3B1B1BF6B83F00C24FBD /* RJThirdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F3B1A1BF6B83F00C24FBD /* RJThirdTableViewCell.swift */; };
+		A18F3B1D1BF6C88800C24FBD /* RJThirdZCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F3B1C1BF6C88800C24FBD /* RJThirdZCModel.swift */; };
+		A18F3B1F1BF6DB9E00C24FBD /* RJAttentionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F3B1E1BF6DB9E00C24FBD /* RJAttentionViewController.swift */; };
+		A18F3B211BF6DBDE00C24FBD /* RJBuyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18F3B201BF6DBDE00C24FBD /* RJBuyListViewController.swift */; };
 		A1D0DD641BEE3D490022C2C4 /* RJFirstDetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0DD631BEE3D490022C2C4 /* RJFirstDetaViewController.swift */; };
 		A1D0DD681BEE42430022C2C4 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D0DD671BEE42430022C2C4 /* UIView-Extension.swift */; };
 		A1D0DD7D1BEE4F6A0022C2C4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D0DD6B1BEE4F6A0022C2C4 /* AFHTTPRequestOperation.m */; };
@@ -87,6 +93,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A110D69E1BF5FC6F00055D82 /* RJSecondDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJSecondDetailController.swift; sourceTree = "<group>"; };
+		A110D6A01BF6072600055D82 /* RJThridChooseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJThridChooseButton.swift; sourceTree = "<group>"; };
 		A15A1BCF1BF212AF003E21F8 /* RJZCDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJZCDetailViewController.swift; sourceTree = "<group>"; };
 		A17E74C11BEF5686008514B9 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		A17E74C21BEF5686008514B9 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
@@ -123,6 +131,10 @@
 		A17E74E11BEF5686008514B9 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		A17E74F21BEF928F008514B9 /* RJFirestCollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJFirestCollectionHeaderView.swift; sourceTree = "<group>"; };
 		A17E74F41BEF984F008514B9 /* RJFirstCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJFirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		A18F3B1A1BF6B83F00C24FBD /* RJThirdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJThirdTableViewCell.swift; sourceTree = "<group>"; };
+		A18F3B1C1BF6C88800C24FBD /* RJThirdZCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJThirdZCModel.swift; sourceTree = "<group>"; };
+		A18F3B1E1BF6DB9E00C24FBD /* RJAttentionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJAttentionViewController.swift; sourceTree = "<group>"; };
+		A18F3B201BF6DBDE00C24FBD /* RJBuyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJBuyListViewController.swift; sourceTree = "<group>"; };
 		A1D0DD631BEE3D490022C2C4 /* RJFirstDetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RJFirstDetaViewController.swift; sourceTree = "<group>"; };
 		A1D0DD671BEE42430022C2C4 /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		A1D0DD6A1BEE4F6A0022C2C4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -403,6 +415,7 @@
 			isa = PBXGroup;
 			children = (
 				A1EFFA511BEE2C53007743F8 /* RJSecondViewController.swift */,
+				A110D69E1BF5FC6F00055D82 /* RJSecondDetailController.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -412,6 +425,8 @@
 			children = (
 				A1EFFA531BEE2C62007743F8 /* RJThirdViewController.swift */,
 				A15A1BCF1BF212AF003E21F8 /* RJZCDetailViewController.swift */,
+				A18F3B1E1BF6DB9E00C24FBD /* RJAttentionViewController.swift */,
+				A18F3B201BF6DBDE00C24FBD /* RJBuyListViewController.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -490,6 +505,8 @@
 		B91C45121BF43E5D0097B28C /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				A110D6A01BF6072600055D82 /* RJThridChooseButton.swift */,
+				A18F3B1A1BF6B83F00C24FBD /* RJThirdTableViewCell.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -511,6 +528,7 @@
 		B91C45151BF43E770097B28C /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				A18F3B1C1BF6C88800C24FBD /* RJThirdZCModel.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -700,6 +718,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A110D69F1BF5FC6F00055D82 /* RJSecondDetailController.swift in Sources */,
 				B91D5ADD1BF08DEE0091321F /* RJDES.m in Sources */,
 				A17E74E61BEF5686008514B9 /* SDWebImageDecoder.m in Sources */,
 				A1D0DD811BEE4F6A0022C2C4 /* AFSecurityPolicy.m in Sources */,
@@ -726,11 +745,14 @@
 				A1D0DD851BEE4F6A0022C2C4 /* AFURLSessionManager.m in Sources */,
 				B91C45761BF491FB0097B28C /* MJRefreshConst.m in Sources */,
 				A1D0DD681BEE42430022C2C4 /* UIView-Extension.swift in Sources */,
+				A18F3B1F1BF6DB9E00C24FBD /* RJAttentionViewController.swift in Sources */,
 				A1D0DD7E1BEE4F6A0022C2C4 /* AFHTTPRequestOperationManager.m in Sources */,
 				A17E74E81BEF5686008514B9 /* SDWebImageDownloaderOperation.m in Sources */,
 				A1D0DD641BEE3D490022C2C4 /* RJFirstDetaViewController.swift in Sources */,
 				B91C45171BF43ED20097B28C /* RJHOProductTableViewCell.swift in Sources */,
+				A18F3B211BF6DBDE00C24FBD /* RJBuyListViewController.swift in Sources */,
 				A1D0DD841BEE4F6A0022C2C4 /* AFURLResponseSerialization.m in Sources */,
+				A18F3B1D1BF6C88800C24FBD /* RJThirdZCModel.swift in Sources */,
 				B91C457B1BF491FB0097B28C /* UIView+MJExtension.m in Sources */,
 				A17E74EA1BEF5686008514B9 /* SDWebImagePrefetcher.m in Sources */,
 				B91C457A1BF491FB0097B28C /* UIScrollView+MJRefresh.m in Sources */,
@@ -745,12 +767,14 @@
 				B95B78C31BF1D01200690AB8 /* RJCMProductModel.swift in Sources */,
 				A1EFFA521BEE2C53007743F8 /* RJSecondViewController.swift in Sources */,
 				B91C45771BF491FB0097B28C /* MJRefreshFooterView.m in Sources */,
+				A110D6A11BF6072600055D82 /* RJThridChooseButton.swift in Sources */,
 				A1EFFA3F1BEE2B5E007743F8 /* RJBaseViewController.swift in Sources */,
 				B91C45791BF491FB0097B28C /* UIScrollView+MJExtension.m in Sources */,
 				B91D5AC91BF040B10091321F /* UIScreenSize.swift in Sources */,
 				B91D5ADB1BF08DEE0091321F /* MBProgressHUD.m in Sources */,
 				B91C451B1BF472F00097B28C /* RJProgressView.m in Sources */,
 				A1D0DD921BEE5D570022C2C4 /* RequestAPI.swift in Sources */,
+				A18F3B1B1BF6B83F00C24FBD /* RJThirdTableViewCell.swift in Sources */,
 				A17E74F11BEF5686008514B9 /* UIView+WebCacheOperation.m in Sources */,
 				A17E74EF1BEF5686008514B9 /* UIImageView+HighlightedWebCache.m in Sources */,
 				B91C45781BF491FB0097B28C /* MJRefreshHeaderView.m in Sources */,

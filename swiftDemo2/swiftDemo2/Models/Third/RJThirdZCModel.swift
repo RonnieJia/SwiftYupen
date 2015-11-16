@@ -6,8 +6,13 @@
 //  Copyright © 2015年 RJ. All rights reserved.
 //
 
-import Cocoa
+import Foundation
 
 class RJThirdZCModel: NSObject {
-
+    var imageName: String = ""
+    var status: String = ""
+    var detail: String = ""
+    var progress: CGFloat = 0.0
+    var people: Int = 0
+    var monry: CGFloat = 0.0
 }

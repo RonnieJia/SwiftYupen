@@ -49,19 +49,8 @@ class RJFirstViewController: RJBaseViewController, UICollectionViewDataSource, U
     }
     
     func createNavigationBarItem() {
-        let leftButton = UIButton(frame: CGRect(x: 0, y: 0, width: UIScreenSize.WIDTHMAKE(34), height: UIScreenSize.WIDTHMAKE(34)))
-        leftButton.setBackgroundImage(UIImage(named: "RJSetting.png"), forState: .Normal)
-        leftButton.addTarget(self, action: Selector("navigationBarButtonClickAction:"), forControlEvents: .TouchUpInside)
-        leftButton.tag = leftBarButtonTag
-        let leftBar = UIBarButtonItem(customView: leftButton)
-        self.navigationItem.leftBarButtonItem = leftBar
-        
-        let rightButton = UIButton(frame: CGRect(x: 0, y: 0, width: UIScreenSize.WIDTHMAKE(34), height: UIScreenSize.WIDTHMAKE(34)))
-        rightButton.setBackgroundImage(UIImage(named: "RJScan.png"), forState: .Normal)
-        rightButton.addTarget(self, action: Selector("navigationBarButtonClickAction:"), forControlEvents: .TouchUpInside)
-        rightButton.tag = rightBarButtonTag
-        let rightBar = UIBarButtonItem(customView: rightButton)
-        self.navigationItem.rightBarButtonItem = rightBar
+        self.createLeftNavigationBarItem("RJSetting.png", size: CGSize(width: UIScreenSize.WIDTHMAKE(34), height: UIScreenSize.WIDTHMAKE(34)), selector: Selector("navigationBarButtonClickAction:"), tag: leftBarButtonTag)
+        self.createRightNavigationBarItem("RJScan.png", size: CGSize(width: UIScreenSize.WIDTHMAKE(34), height: UIScreenSize.WIDTHMAKE(34)), selector: Selector("navigationBarButtonClickAction:"), tag: rightBarButtonTag)
     }
     
     // navigationBarButton的Action
