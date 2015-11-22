@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
+        
+        // 如果没有授权请求用户授权
+        if CLLocationManager.authorizationStatus() == CLAuthorizationStatus.NotDetermined {
+            CLLocationManager().requestWhenInUseAuthorization()
+        }
         
         let first = RJFirstViewController()
         let firstNav: UINavigationController = UINavigationController(rootViewController: first)

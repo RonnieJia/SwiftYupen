@@ -916,7 +916,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/swiftDemo2/OCFiles/swiftDemo2.pch";
 				INFOPLIST_FILE = swiftDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = RJ.swiftDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = RJ.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swiftDemo2/OCFiles/swiftDemo2.pch";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -933,7 +933,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/swiftDemo2/OCFiles/swiftDemo2.pch";
 				INFOPLIST_FILE = swiftDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = RJ.swiftDemo2;
+				PRODUCT_BUNDLE_IDENTIFIER = RJ.swiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swiftDemo2/OCFiles/swiftDemo2.pch";
 			};
